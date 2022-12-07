@@ -11,7 +11,7 @@ store.runSaga(rootSaga)
 
 render(
   <Provider store={store}>
-    <App />
+    <App2 />
   </Provider>,
   document.getElementById('root'),
 )
